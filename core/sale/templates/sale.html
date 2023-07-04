@@ -1,0 +1,11 @@
+{% extends "admin/base_site.html" %} {% block sidebar %} {{block.super}}
+<div>
+  <ul>
+    {% for sale in sales %}
+    <li>{{sale.total}}</li>
+    <li>{{sale.product.title}}</li>
+
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

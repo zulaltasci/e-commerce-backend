@@ -1,0 +1,6 @@
+Django
+sorl-thumbnail
+psycopg2-binary
+pysolr
+djangorestframework
+django-oscar-api
